@@ -55,9 +55,10 @@ Some GC related issues (tracked by *KYLIN-1861* and *KYLIN-1692*).
 Currently there are more than 400 outstanding issues out of which around 75% of them have been tagged as major. We are sure they will be ironed out soon. This projct has a strong [open source community](https://github.com/apache/kylin/graphs/contributors) including the support of orginizations like eBay.
 
 #### Conclusion
-Currently Kylin has been deployed in [several companies](http://kylin.apache.org/community/poweredby.html) to process extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage the Kylin interpreter.
+Currently Kylin has been deployed in [several companies](http://kylin.apache.org/community/poweredby.html) to process extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even other open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage the Kylin interpreter. 
 
 
 References:  
 * [Apache Kylin Website](http://kylin.apache.org/)
 * [Apache Kylin JIRA](https://issues.apache.org/jira/browse/KYLIN)
+* [Apache Kylin Blog](http://kylin.apache.org/blog/)
