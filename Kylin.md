@@ -20,4 +20,4 @@ There are also some GC related issues (tracked by *KYLIN-1861* and *KYLIN-1692*)
 References
 
 * [Apache Kylin Official Website](http://kylin.apache.org/)
-* [JIRA](https://issues.apache.org/jira/browse/KYLIN)
+* [Apache Kylin JIRA](https://issues.apache.org/jira/browse/KYLIN)
