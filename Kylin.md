@@ -12,24 +12,23 @@ To get started with Kylin you will need
 
 1. [Download Cloudera Sandbox](http://www.cloudera.com/downloads/quickstart_vms/5-7.html)
 2. [Download Apache Kylin](http://wwwftp.ciril.fr/pub/apache/kylin/apache-kylin-1.5.2.1/) 
-3. Atleast 8GB RAM configured for your VM
+3. Atleast 8GB RAM configured for your VM (Cloudera Sandbox)
 
-Make sure you download Apache Kylin to `/opt/` folder  
+Make sure you download Apache Kylin to `/opt/` folder in your VM. 
 ```
 sudo tar -xvzf apache-kylin-1.5.2.1-cdh5.7-bin.tar.gz  
 sudo ln -s apache-kylin-1.5.2.1-bin/ apache-kylin  
 vim ~/.bash_profile  
-export KYLIN_HOME=/opt/apache-kylin (Add this line to ENV variables)  
+export KYLIN_HOME=/opt/apache-kylin (Add this line to your profile)  
 source ~/.bash_profile  
 sudo bin/kylin.sh start  
 ```
-   
- 
+
 ![Installation Procedure](install.gif)  
 
+#### Introduction to the Web Interface
 
-
-
+#### Basic Operations
 
 #### Building Cubes
 
