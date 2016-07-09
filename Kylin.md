@@ -37,6 +37,15 @@ The web interface can be accessed `http://<your_hostname>:7070/kylin` (user/pwd 
 
 #### Building Cubes
 
+1. Fill up the basic information of the cube. Click `Next` to enter the next step
+2. Create Dimensions from look up table with derived dimensions
+3. Create Measures 
+4. Filter (Optional Step)
+5. Refresh Setting (This step is designed for incremental cube build)
+6. Advanced Setting (Used for creating Aggregation groups and Rowkeys)
+7. Overview & Save
+
+![Building Cubes](cube.png)  
 
 #### Some Issues
 Difficult to export cube meta data from one Kylin system to another (trakced by *KYLIN-1605*).  
@@ -45,7 +54,7 @@ Some GC related issues (tracked by *KYLIN-1861* and *KYLIN-1692*).
 Currently there are more than 400 outstanding issues out of which around 75% of them have been tagged as major. We are sure they will be ironed out soon. This projct has a strong [open source community](https://github.com/apache/kylin/graphs/contributors) including the support of orginizations like eBay.
 
 #### Conclusion
-Currently Kylin has been deployed in production at eBay and several other [companies](http://kylin.apache.org/community/poweredby.html) to process extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage the Kylin interpreter.
+Currently Kylin has been deployed in [several companies](http://kylin.apache.org/community/poweredby.html) to process extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage the Kylin interpreter.
 
 
 References:  
