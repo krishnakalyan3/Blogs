@@ -12,4 +12,4 @@ To get started with Kylin you will need
 
 References
 
-* [Official Website](http://kylin.apache.org/)
+* [Apache Kylin Official Website](http://kylin.apache.org/)
