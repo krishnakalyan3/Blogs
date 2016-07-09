@@ -42,7 +42,7 @@ The web interface can be accessed `http://<your_hostname>:7070/kylin` (user/pwd 
 Difficult to export cube meta data from one Kylin system to another (trakced by *KYLIN-1605*).  
 Spark engine is an experimental phase as it did not achieve a better performance when compared to MapReduce engine (tracked by *KYLIN-744* and *KYLIN-1094*).  
 Some GC related issues (tracked by *KYLIN-1861* and *KYLIN-1692*).  
-Currently there are more than 400 outstanding issues out of which around 75% of them have been tagged as major issues. I am sure they will be ironed. This projct has a strong [open source community](https://github.com/apache/kylin/graphs/contributors) which alsoe includes the support of orginizations like eBay.
+Currently there are more than 400 outstanding issues out of which around 75% of them have been tagged as major. We are sure they will be ironed out soon. This projct has a strong [open source community](https://github.com/apache/kylin/graphs/contributors) including the support of orginizations like eBay.
 
 #### Conclusion
 Currently Kylin has been deployed in production at eBay and several other [companies](http://kylin.apache.org/community/poweredby.html) to process extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage the Kylin interpreter.
