@@ -40,9 +40,9 @@ The web interface can be accessed `http://<your_hostname>:7070/kylin` (user/pwd 
 1. Fill up the basic information of the cube. Click `Next` to enter the next step
 2. Create Dimensions from look up table with derived dimensions
 3. Create Measures 
-4. Filter (Optional Step)
-5. Refresh Setting (This step is designed for incremental cube build)
-6. Advanced Setting (Used for creating Aggregation groups and Rowkeys)
+4. Refresh Setting (This step is designed for incremental cube build)
+5. Advanced Setting (Used for creating Aggregation groups and Rowkeys)
+6. Configuration Overwrites (Tune MapReduce)
 7. Overview & Save
 
 ![Building Cubes](cube.png)  
