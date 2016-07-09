@@ -15,14 +15,14 @@ To get started with Kylin you will need
 3. Atleast 8GB RAM configured for your VM
 
 Make sure you download Apache Kylin to `/opt/` folder  
-`
+```
 sudo tar -xvzf apache-kylin-1.5.2.1-cdh5.7-bin.tar.gz  
 sudo ln -s apache-kylin-1.5.2.1-bin/ apache-kylin  
 vim ~/.bash_profile  
 export KYLIN_HOME=/opt/apache-kylin (Add this line to ENV variables)  
 source ~/.bash_profile  
 sudo bin/kylin.sh start  
-`
+```
    
  
 ![Installation Procedure](install.gif)  
