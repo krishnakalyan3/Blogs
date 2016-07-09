@@ -14,9 +14,22 @@ To get started with Kylin you will need
 2. [Download Apache Kylin](http://wwwftp.ciril.fr/pub/apache/kylin/apache-kylin-1.5.2.1/) 
 3. Atleast 8GB RAM configured for your VM
 
+Make sure you download Apache Kylin to `/opt/` folder  
+`
+sudo tar -xvzf apache-kylin-1.5.2.1-cdh5.7-bin.tar.gz  
+sudo ln -s apache-kylin-1.5.2.1-bin/ apache-kylin  
+vim ~/.bash_profile  
+export KYLIN_HOME=/opt/apache-kylin (Add this line to ENV variables)  
+source ~/.bash_profile  
+sudo bin/kylin.sh start  
+`
    
-Make sure you copy Apache Kylin to `/opt/` folder  
+ 
 ![Installation Procedure](install.gif)  
+
+
+
+
 
 #### Building Cubes
 
