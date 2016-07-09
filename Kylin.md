@@ -28,12 +28,13 @@ sudo bin/kylin.sh start
 
 #### Introduction to the Web Interface and Basic Operations
 The web interface can be accessed `http://<your_hostname>:7070/kylin` (user/pwd - ADMIN/KYLIN).
-1. Run ${KYLIN_HOME}/bin/sample.sh  
-2. Logon Kylin web, select project `learn_kylin`  
-3. Select the sample cube `kylin_sales_cube`, click `Actions` -> `Build`  
-4. Check the build progress in `Jobs' tab, until 100%  
-5. Execute SQLs in the `Query` tab  
-6. You can verify the query result   
+
+1. Run ${KYLIN_HOME}/bin/sample.sh
+2. Logon Kylin web, select project `learn_kylin`
+3. Select the sample cube `kylin_sales_cube`, click `Actions` -> `Build`
+4. Check the build progress in `Jobs' tab, until 100%
+5. Execute SQLs in the `Query` tab
+6. You can verify the query result
 
 #### Building Cubes
 
