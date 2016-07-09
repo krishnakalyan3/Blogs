@@ -10,9 +10,9 @@ To get started with Kylin you will need
 
 
 ## Some Major Issues
-Currently we cannot export cube meta data from one Kylin system to another (trakced by *KYLIN-1605*). 
-The spark engine is an experimental phase, It did not achieve better performance compared to map-reduce engine (tracked by *KYLIN-744* and *KYLIN-1094*).
-There are also GC related issues (tracked by *KYLIN-1861*)
+Currently we cannot export cube meta data from one Kylin system to another (trakced by *KYLIN-1605*).  
+The spark engine is an experimental phase, It did not achieve better performance compared to map-reduce engine (tracked by *KYLIN-744* and *KYLIN-1094*).  
+There are also GC related issues (tracked by *KYLIN-1861*).  
 
 
 
