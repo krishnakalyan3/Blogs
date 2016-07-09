@@ -13,11 +13,11 @@ To get started with Kylin you will need
 Currently we cannot export cube meta data from one Kylin system to another (trakced by *KYLIN-1605*).  
 The spark engine is an experimental phase, It did not achieve better performance compared to map-reduce engine (tracked by *KYLIN-744* and *KYLIN-1094*).  
 There are also some GC related issues (tracked by *KYLIN-1861* and *KYLIN-1692*).  
-
+Currently there are more than 400 outstanding issues out of which around 75% of them are tagged as major issues. I am sure these will ironed out soon since this projct has a strong open source [community](https://github.com/apache/kylin/graphs/contributors) and support of major orginizations like eBay.
 
 
 
 References
 
-* [Apache Kylin Official Website](http://kylin.apache.org/)
+* [Apache Kylin Website](http://kylin.apache.org/)
 * [Apache Kylin JIRA](https://issues.apache.org/jira/browse/KYLIN)
