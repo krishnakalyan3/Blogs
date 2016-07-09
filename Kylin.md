@@ -24,7 +24,6 @@ Currently there are more than 400 outstanding issues out of which around 75% of 
 Currently Kylin has been deployed in production at eBay and is processing extremely large datasets. The platform has demonstrated great performance benefits and has proved to be a better way for analysts to leverage data on Hadoop with a more convenient approach using their favorite tool. Even open source projects like [Apache Zeppelin](https://zeppelin.apache.org/) leverage Kylin interpreter.
 
 
-References
-
+References:  
 * [Apache Kylin Website](http://kylin.apache.org/)
 * [Apache Kylin JIRA](https://issues.apache.org/jira/browse/KYLIN)
